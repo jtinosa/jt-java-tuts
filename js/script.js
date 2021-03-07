@@ -88,7 +88,6 @@ monogatari.script ({
 	// The game starts here.
 	'Start': [
 		'show scene #f7f6f6 with fadeIn',
-		'show particles sample',
 		{
 			'Input': {
 				'Text': 'What is your name?',

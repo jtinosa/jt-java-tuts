@@ -45,13 +45,13 @@ monogatari.settings({
 	'AutoSaveLabel': 'AutoSave',
 
 	// Turn main menu on/off; Default: true *
-	'ShowMainScreen': true,
+	'ShowMainScreen': false,
 
 	// Turn image preloading on/off, Default: true
 	'Preload': true,
 
 	// Time interval between autosaves (In Minutes). Default: 0 (Off)
-	'AutoSave': 0,
+	'AutoSave': 1,
 
 	// Enable service workers; Default: true *
 	'ServiceWorkers': true,

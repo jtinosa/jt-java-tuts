@@ -12080,7 +12080,7 @@ text-box.side-image--unconstrained [data-content="side-image"] {
 @media screen and (min-width: 37.56255em) {
   text-box,
   text-box:after {
-    bottom: 2.5rem;
+    bottom: 0rem;
   }
 }
 @media screen and (min-width: 48em) {
