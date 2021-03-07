@@ -23,7 +23,7 @@ monogatari.action ('notification').notifications ({
 
 // Define the Particles JS Configurations used in the game
 monogatari.action ('particles').particles ({
-
+	
 });
 
 // Define the canvas objects used in the game
@@ -88,6 +88,7 @@ monogatari.script ({
 	// The game starts here.
 	'Start': [
 		'show scene #f7f6f6 with fadeIn',
+		'show particles sample',
 		{
 			'Input': {
 				'Text': 'What is your name?',

@@ -4,13 +4,11 @@ monogatari.script ({
         {'Choice': {
             'Beginner': {
                 'Text': 'Beginner',
-                'Do': 'jump lesson1',
-                'class': "button-style"
+                'Do': 'jump scene3'
             },
             'Advance': {
                 'Text': 'Advance',
-                'Do': 'jump lesson2',
-                'class': "button-style"
+                'Do': 'jump scene4'
             }
         }}
 	]
