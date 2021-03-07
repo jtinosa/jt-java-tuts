@@ -1,0 +1,5 @@
+monogatari.script ({
+	'lesson7': [
+
+	]
+});
