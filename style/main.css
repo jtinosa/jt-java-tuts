@@ -147,14 +147,21 @@ button:hover {
 
 /* Quick Menu Buttons Style on Hover */
 [data-component="quick-menu"] span:hover {
-
+	display: none;
 }
 
 /* Quick Menu Buttons Icon Style */
 [data-component="quick-menu"] > span > .fa {
-
+	margin-right: 0px;
+	display: none;
+	overflow: hidden;
 }
-svg.svg-inline--fa.fa-save.fa-w-14,svg.svg-inline--fa.fa-undo.fa-w-16,svg.svg-inline--fa.fa-comments.fa-w-18{
+svg.svg-inline--fa.fa-arrow-left.fa-w-14,svg.svg-inline--fa.fa-eye.fa-w-18,svg.svg-inline--fa.fa-cog.fa-w-16{
+	margin-right: 16px;
+	height: 16px;
+	width: 16px;
+}
+svg.svg-inline--fa.fa-save.fa-w-14,svg.svg-inline--fa.fa-undo.fa-w-16,svg.svg-inline--fa.fa-comments.fa-w-18,svg.svg-inline--fa.fa-play-circle.fa-w-16{
 	display: none;
 	overflow: hidden;
 }
