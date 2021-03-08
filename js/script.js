@@ -78,9 +78,6 @@ monogatari.characters ({
 	'y': {
 		name: 'Yui',
 		color: '#5bcaff'
-	},
-	'player': {
-		name: '{{player.name}}'
 	}
 });
 
@@ -88,30 +85,6 @@ monogatari.script ({
 	// The game starts here.
 	'Start': [
 		'show scene #f7f6f6 with fadeIn',
-		{
-			'Input': {
-				'Text': 'What is your name?',
-				'Validation': function (input) {
-					return input.trim ().length > 0;
-				},
-				'Save': function (input) {
-					this.storage ({
-						player: {
-							name: input
-						}
-					});
-					return true;
-				},
-				'Revert': function () {
-					this.storage ({
-						player: {
-							name: ''
-						}
-					});
-				},
-				'Warning': 'You must enter a name!'
-			}
-		},
 		'jump scene1'
 	]
 });

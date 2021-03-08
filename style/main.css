@@ -24,7 +24,7 @@ body {
 
 /* Simple Button styles*/
 button {
-
+	
 }
 
 /* Simple Button Style on Hover */
@@ -130,12 +130,19 @@ button:hover {
 
 /* Quick Menu Style */
 [data-component="quick-menu"] {
-
+	margin: 0px;
+	border: 0px;
 }
 
 /* Quick Menu Buttons Style */
+[data-component="quick-menu"] button{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
 [data-component="quick-menu"] span {
-
+	width: 0px;
+	height: 0px;
 }
 
 /* Quick Menu Buttons Style on Hover */
@@ -146,6 +153,10 @@ button:hover {
 /* Quick Menu Buttons Icon Style */
 [data-component="quick-menu"] > span > .fa {
 
+}
+svg.svg-inline--fa.fa-save.fa-w-14,svg.svg-inline--fa.fa-undo.fa-w-16,svg.svg-inline--fa.fa-comments.fa-w-18{
+	display: none;
+	overflow: hidden;
 }
 
 /**
@@ -183,23 +194,24 @@ input[type=range]::-ms-fill-upper {
 
 }
 
+
 /** Medium Screens, Phablets (601px) **/
 @media screen and (min-width: 37.56255em) {
 	/* Styles for the desktop version of the Quick Menu */
 
 	/* Quick Menu Style */
-	[data-component="quick-menu"] {
-
+	[data-component="quick-menu"].fa {
+		
 	}
 
 	/* Quick Menu Buttons Style */
 	[data-component="quick-menu"] span {
-
+		visibility: hidden;
 	}
 
 	/* Quick Menu Buttons Style on Hover */
 	[data-component="quick-menu"] span:hover {
-
+		visibility: hidden;
 	}
 }
 
