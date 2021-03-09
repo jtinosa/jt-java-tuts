@@ -1,6 +1,6 @@
 monogatari.script ({
 	'scene4': [
-        "y Here are the Advance lessons",
+        "y:normal Here are the Advance lessons",
         {'Choice': {
             '1': {
                 'Text': 'Classes and Objects',

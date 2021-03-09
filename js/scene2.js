@@ -1,6 +1,6 @@
 monogatari.script ({
 	'scene2': [
-        "y Choose a lesson you wanted to start with.",
+        "y:normal Choose a lesson you wanted to start with.",
         {'Choice': {
             'Beginner': {
                 'Text': 'Beginner',

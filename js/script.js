@@ -64,19 +64,20 @@ monogatari.assets ('videos', {
 
 // Define the images used in the game.
 monogatari.assets ('images', {
-
+	'java-intro':'java-intro.png',
+	'hello-world':'hello-world.png'
 });
 
 // Define the backgrounds for each scene.
 monogatari.assets ('scenes', {
-
+	'classroom':'classroom.jpg'
 });
 
 
 // Define the Characters
 monogatari.characters ({
 	'y': {
-		name: 'Yui',
+		name: 'Jay',
 		color: '#5bcaff',
 		sprites: {
             normal: 'sample.png'
@@ -91,6 +92,7 @@ monogatari.script ({
 	// The game starts here.
 	'Start': [
 		'show scene #f7f6f6 with fadeIn',
-		'jump scene1'
+		// 'jump scene1'
+		'jump lesson1'
 	]
 });

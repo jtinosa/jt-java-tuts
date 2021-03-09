@@ -27,6 +27,10 @@ button {
 	
 }
 
+img.animated.center.fadeIn{
+	margin-top: 32px;
+}
+
 /* Simple Button Style on Hover */
 button:hover {
 
