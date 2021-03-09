@@ -77,7 +77,13 @@ monogatari.assets ('scenes', {
 monogatari.characters ({
 	'y': {
 		name: 'Yui',
-		color: '#5bcaff'
+		color: '#5bcaff',
+		sprites: {
+            normal: 'sample.png'
+        },
+		expressions: {
+            normal: 'sample.png'
+        }
 	}
 });
 
